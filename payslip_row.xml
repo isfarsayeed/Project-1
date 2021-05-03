@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_margin="7dp"
+    android:layout_marginTop="10dp"
+    app:layout_goneMarginBottom="10dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:orientation="horizontal"
+        android:id="@+id/slip"
+        >
+
+
+        <ImageView
+            android:layout_width="76dp"
+            android:layout_height="72dp"
+            app:srcCompat="@drawable/ic_baseline_picture_as_pdf_24"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="7dp"
+            tools:ignore="VectorDrawableCompat" />
+        <TextView
+            android:id="@+id/slipName"
+            android:layout_marginLeft="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="74dp"
+            android:text="IPFT Record updated
+05/11/20"
+            android:textSize="24sp"
+            android:fontFamily="@font/segoui"
+            android:layout_marginTop="11dp"
+            android:gravity="center_vertical">
+
+        </TextView></LinearLayout>
+</androidx.cardview.widget.CardView>
